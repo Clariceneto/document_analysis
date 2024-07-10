@@ -13,7 +13,7 @@ This project allows you to upload documents in PDF, DOCX, or TXT formats and ana
 
 ### Prerequisites
 
-- Python 3.8 or higher
+- python = ">=3.10,<=3.13" or higher
 - Poetry (for dependency management)
 
 ### Installation
@@ -28,14 +28,16 @@ This project allows you to upload documents in PDF, DOCX, or TXT formats and ana
 2. **Create a virtual environment and install dependencies:**
 
     ```bash
+    poetry lock 
     poetry install
     ```
 
 3. **Create a `.env` file in the project root and add your OpenAI API key:**
 
     ```plaintext
-    OPENAI_API_KEY="your-openai-api-key"
-    OPENAI_MODEL_NAME="gpt-4"
+    OPENAI_API_KEY=""
+    OPENAI_MODEL_NAME="gpt-3.5-turbo"
+    SERPER_API_KEY='8'
     ```
 
 ### Running the Application
