@@ -1,0 +1,5 @@
+identify_document_theme_task:
+  description: >
+    Analyze the entire document and identify its main theme.
+  expected_output: >
+    The main theme of the document.

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>OneSecondAI</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-5">One_Second_AI  Document Analyzer</h1>
+        <form action="/upload" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <h4 for="document">Insert here the document (PDF,DOCX or TXT) that  you want me to analyze</h4>
+                <input type="file" class="form-control-file" id="document" name="document" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Send for analysis</button>
+        </form>
+    </div>
+</body>
+</html>

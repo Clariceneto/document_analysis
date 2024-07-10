@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Analysis Result</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .content {
+            margin: 0 auto;
+            width: 80%;
+        }
+        .theme {
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        pre {
+            background: #f4f4f4;
+            padding: 20px;
+            border: 1px solid #ddd;
+            overflow: auto;
+        }
+        .errors {
+            background: #ffe6e6;
+            padding: 10px;
+            border: 1px solid #ffcccc;
+            margin-top: 20px;
+        }
+        a {
+            display: block;
+            margin-top: 20px;
+            text-align: center;
+            text-decoration: none;
+            color: #2147f0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>OneSecondAI</h1>
+        <div class="theme">{{ theme }}</div>
+    </div>
+    <div class="content">
+        <pre>{{ result }}</pre>
+        {% if spelling_grammar_errors %}
+        <div class="errors">
+            <h2>Spelling and Grammar Errors</h2>
+            <ul>
+                {% for error in spelling_grammar_errors %}
+                <li>
+                    <strong>Context:</strong> {{ error.text }}<br>
+                    <strong>Error:</strong> {{ error.error }}<br>
+                    <strong>Suggestions:</strong> {{ error.suggestions | join(', ') }}
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+        {% endif %}
+        <a href="/">Upload another document</a>
+    </div>
+</body>
+</html>

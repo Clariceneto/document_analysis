@@ -1,0 +1,28 @@
+artigos:
+- Abstract:
+  - Text: Here is the detailed content extracted from the Abstract section of the
+      PDF. It includes a brief overview of the research focus, methods used, and key
+      findings.
+  Conclusion:
+  - Text: This section summarizes the main findings of the research, the conclusions
+      drawn from the results, and future research data or recommendations based on
+      the study's outcomes.
+  Discussion:
+  - Text: The Discussion interprets the results, discussing how they align with or
+      differ from the hypotheses and previous studies. It also covers the implications
+      of the findings and possible limitations of the study.
+  Introduction:
+  - Text: The Introduction section provides a comprehensive background on the topic,
+      including previous research and the problem statement that the current study
+      aims to address.
+  Methods:
+  - Text: This section details the experimental design, materials used, and the procedures
+      followed during the research. It also explains the statistical methods applied
+      to analyze the data.
+  References:
+  - Text: Contains a detailed list of all the references cited throughout the document,
+      formatted according to the specific academic style requested.
+  Results:
+  - Text: Here, the outcomes of the experiments are presented. This includes statistical
+      data, observed trends, and significant findings relevant to the research questions
+      posed.

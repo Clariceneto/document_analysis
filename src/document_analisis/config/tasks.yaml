@@ -1,0 +1,16 @@
+analise_task:
+  description: |
+    Identifique o tema principal, objetivos, GAP, resultados, limitações, conclusões, recomendações futuras, sugestões de melhorias, críticas detalhadas e melhorias específicas do documento.
+    Utilize as seguintes solicitações:
+    0 - TEMA: Identifique o tema principal do documento.
+    1 - OBJETIVOS: Identifique os objetivos principais desta página do documento e resuma-os em um parágrafo claro e conciso.
+    2 - GAP: Identifique o GAP abordado nesta página do documento e resuma-o em um parágrafo claro.
+    5 - RESULTADOS: Resuma os resultados apresentados nesta página, focando em dados quantitativos e sugira melhorias.
+    6 - LIMITAÇÕES: Produza um texto parafraseado das limitações apresentadas nesta página.
+    7 - CONCLUSÃO: Resuma as conclusões apresentadas nesta página.
+    8 - FUTURO: Aponte recomendações para futuras investigações baseadas nas conclusões desta página.
+    9 - AVALIAÇÃO: Faça uma avaliação crítica desta página, evitando generalizações.
+    10 - SUGESTÕES: Liste sugestões de melhorias para esta página do documento.
+    11 - CRÍTICAS: Apresente críticas detalhadas sobre esta página do documento.
+    12 - MELHORIAS: Identifique e sugira melhorias específicas para esta página do documento.
+  expected_output: 'Um documento detalhado contendo a análise completa com base nas solicitações fornecidas.'
