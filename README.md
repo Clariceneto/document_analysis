@@ -1,57 +1,17 @@
-# TaskManager Crew
+# Document Analysis
 
-Welcome to the TaskManager Crew project, powered by [crewAI](https://crewai.com). This template is designed to help you set up a multi-agent AI system with ease, leveraging the powerful and flexible framework provided by crewAI. Our goal is to enable your agents to collaborate effectively on complex tasks, maximizing their collective intelligence and capabilities.
+This project allows you to upload documents in PDF, DOCX, or TXT formats and analyzes them using OpenAI's GPT-4 model. The analysis includes identifying the main theme, objectives, evaluations, suggestions, criticisms, and improvements for the document.
 
-## Installation
+## Setup
 
-Ensure you have Python >=3.10 <=3.13 installed on your system. This project uses [Poetry](https://python-poetry.org/) for dependency management and package handling, offering a seamless setup and execution experience.
+1. Clone the repository.
+2. Create a virtual environment and activate it.
+3. Install the dependencies using `poetry install`.
+4. Create a `.env` file in the project root and add your OpenAI API key.
+5. Run the application using `python src/document_analysis/app.py`.
 
-First, if you haven't already, install Poetry:
+## Usage
 
-```bash
-pip install poetry
-```
-
-Next, navigate to your project directory and install the dependencies:
-
-1. First lock the dependencies and then install them:
-```bash
-poetry lock
-```
-```bash
-poetry install
-```
-### Customizing
-
-**Add your `OPENAI_API_KEY` into the `.env` file**
-
-- Modify `src/task_manager/config/agents.yaml` to define your agents
-- Modify `src/task_manager/config/tasks.yaml` to define your tasks
-- Modify `src/task_manager/crew.py` to add your own logic, tools and specific args
-- Modify `src/task_manager/main.py` to add custom inputs for your agents and tasks
-
-## Running the Project
-
-To kickstart your crew of AI agents and begin task execution, run this from the root folder of your project:
-
-```bash
-poetry run task_manager
-```
-
-This command initializes the task_manager Crew, assembling the agents and assigning them tasks as defined in your configuration.
-
-This example, unmodified, will run the create a `report.md` file with the output of a research on LLMs in the root folder.
-
-## Understanding Your Crew
-
-The task_manager Crew is composed of multiple AI agents, each with unique roles, goals, and tools. These agents collaborate on a series of tasks, defined in `config/tasks.yaml`, leveraging their collective skills to achieve complex objectives. The `config/agents.yaml` file outlines the capabilities and configurations of each agent in your crew.
-
-## Support
-
-For support, questions, or feedback regarding the TaskManager Crew or crewAI.
-- Visit our [documentation](https://docs.crewai.com)
-- Reach out to us through our [GitHub repository](https://github.com/joaomdmoura/crewai)
-- [Join our Discord](https://discord.com/invite/X4JWnZnxPb)
-- [Chat with our docs](https://chatg.pt/DWjSBZn)
-
-Let's create wonders together with the power and simplicity of crewAI.
+1. Open your browser and navigate to `http://127.0.0.1:5000/`.
+2. Upload a document (PDF, DOCX, or TXT).
+3. View the analysis results.
