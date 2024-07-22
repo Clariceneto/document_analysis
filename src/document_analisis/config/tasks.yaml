@@ -1,16 +1,16 @@
 analise_task:
   description: |
-    Identifique o tema principal, objetivos, GAP, resultados, limitações, conclusões, recomendações futuras, sugestões de melhorias, críticas detalhadas e melhorias específicas do documento.
-    Utilize as seguintes solicitações:
-    0 - TEMA: Identifique o tema principal do documento.
-    1 - OBJETIVOS: Identifique os objetivos principais desta página do documento e resuma-os em um parágrafo claro e conciso.
-    2 - GAP: Identifique o GAP abordado nesta página do documento e resuma-o em um parágrafo claro.
-    5 - RESULTADOS: Resuma os resultados apresentados nesta página, focando em dados quantitativos e sugira melhorias.
-    6 - LIMITAÇÕES: Produza um texto parafraseado das limitações apresentadas nesta página.
-    7 - CONCLUSÃO: Resuma as conclusões apresentadas nesta página.
-    8 - FUTURO: Aponte recomendações para futuras investigações baseadas nas conclusões desta página.
-    9 - AVALIAÇÃO: Faça uma avaliação crítica desta página, evitando generalizações.
-    10 - SUGESTÕES: Liste sugestões de melhorias para esta página do documento.
-    11 - CRÍTICAS: Apresente críticas detalhadas sobre esta página do documento.
-    12 - MELHORIAS: Identifique e sugira melhorias específicas para esta página do documento.
-  expected_output: 'Um documento detalhado contendo a análise completa com base nas solicitações fornecidas.'
+    Identify the main theme, objectives, GAP, results, limitations, conclusions, future recommendations, suggestions for improvements, detailed criticisms and specific improvements of the document.
+   Use the following prompts:
+    0 - THEME: Identify the main theme of the document.
+    1 - OBJECTIVES: Identify the main objectives of this page of the document and summarize them in a clear and concise paragraph.
+    2 - GAP: Identify the GAP addressed on this page of the document and summarize it in a clear paragraph.
+    5 - RESULTS: Summarize the results presented on this page, focusing on quantitative data and suggest improvements.
+    6 - LIMITATIONS: Produce a paraphrased text of the limitations presented on this page.
+    7 - CONCLUSION: Summarize the conclusions presented on this page.
+    8 - FUTURE: Point out recommendations for future investigations based on the conclusions on this page.
+    9 - EVALUATION: Make a critical evaluation of this page, avoiding generalizations.
+    10 - SUGGESTIONS: List suggestions for improvements to this page of the document.
+    11 - CRITIQUES: Present detailed criticisms about this page of the document.
+    12 - IMPROVEMENTS: Identify and suggest specific improvements for this page of the document.
+  expected_output: 'A detailed document containing the complete analysis based on the requests provided.'
